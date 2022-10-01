@@ -1,0 +1,24 @@
+{
+  "name": "cloud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sa1999ankit/cloud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sa1999ankit/cloud/issues"
+  },
+  "homepage": "https://github.com/sa1999ankit/cloud#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.6.3"
+  }
+}
