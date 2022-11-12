@@ -29,6 +29,13 @@ app.get('/admin', (req, res) => {
     res.send(`User ID: ${req.params.id}`);
   }
   )
+
+  app.get("/user", (req, res) => {
+    res.send("Hi")
+  }
+  )
+
+
   
   app.listen(process.env.PORT || SERVER_PORT, () => {
     console.log(`Server running at http://${SERVER_HOST}:${SERVER_PORT}/`);
