@@ -43,7 +43,7 @@ jobs:
           # Note: tags has to be all lower-case
           tags: |
             ankitsaini514/docker-one:latest 
-            ghcr.io/ankiotsaini514/docker-one:latest
+            ghcr.io/ankitsaini514/docker-one:latest
           # build on feature branches, push only on main branch
           push: ${{ github.ref == 'refs/heads/master' }}
 
